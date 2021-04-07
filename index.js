@@ -21,10 +21,9 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(`
       {
-        first_name: "Ridwan",
-        last_name: "Olanrewaju",
-        school: "Zuri",
-        course: "Software Development"
+        name: "Ridwan Olanrewaju",
+        country: "Nigeria",
+        hobby: "Software Development"
       }
     `)
   } else {
